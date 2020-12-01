@@ -7,6 +7,9 @@ output: html_document
 
 ```{r}
 ## insert your brilliant WORKING code here
+setwd("C:/Research/CorrAnal/data/")
+table <- read.table("readers.csv", header=TRUE,sep=",", row.names=1, check.names=FALSE)
+table
 ```
 
 ```{r setup, include=FALSE}
